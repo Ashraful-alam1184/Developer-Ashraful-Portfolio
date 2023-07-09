@@ -73,16 +73,61 @@ nav a {
     background: #FFF8F3;
     margin-top: 60px;
 }
-.setion-title{
+.section-title{
     color: #201c1c;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
-.secton-description{
+.section-description{
     color: #757575;
     text-align: center;
     font-size: 16px;
 }
-
-
+main{
+    max-width: 1140px;
+    margin: 0 320px 320px;
+}
+.about-info-controls{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
+}
+.info-title{
+    margin-bottom: 0px;
+    text-justify: auto;
+}
+.info-descripton{
+    margin-top: 5px;
+}
+#s-description{
+    margin-top: 20px;
+    text-align: center;
+    text-size-adjust: 10px;
+}
+.images{
+    width: 30px;
+    height: 30px;
+}
+.skills-section{
+    display: flex;
+    gap: 15px;
+}
+.skill{
+    padding: 15px;
+    border-radius: 3px;
+    background: #ffffff;
+    box-shadow: 0px 4px 5px 0px #2e2c2c;
+}
+.skill-description{
+    color: #FD6E0A;
+}
+main section{
+    margin-top: 40px;
+}
+.section-title{
+    margin-top: 100px;
+}
