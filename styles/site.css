@@ -74,6 +74,7 @@ nav a {
     margin-top: 60px;
 }
 .section-title{
+    margin: 40px;
     color: #201c1c;
     text-align: center;
     font-size: 30px;
@@ -128,9 +129,6 @@ main{
 main section{
     margin-top: 40px;
 }
-.section-title{
-    margin-top: 100px;
-}
 /* resume section */
 
 .resume-colum-title{
@@ -154,11 +152,9 @@ main section{
     font-size: 14px;
     color: #474747;
 }
-.resume-container hr{
-    /* margin: 30px; */
-}
+
 .resume-item-institute{
-   margin-bottom: 20px;
+   /* margin-bottom: 20px; */
    margin-top: 0px;
 }
 .resume-item-description{
@@ -167,5 +163,11 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
-    margin-right: 50px;
+
+}
+footer{
+    display: flex;
+    text-align: center;
+    /* margin: ; */
+    background: #ddc8ba;
 }
