@@ -167,7 +167,28 @@ main section{
 }
 footer{
     display: flex;
+    gap: 100px;
     text-align: center;
-    /* margin: ; */
+    margin-top: 0px;
     background: #ddc8ba;
+    padding: 30px 180px;
+}
+.social-link a{
+    margin-right: 20px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.submit{
+    text-align: left;
 }
